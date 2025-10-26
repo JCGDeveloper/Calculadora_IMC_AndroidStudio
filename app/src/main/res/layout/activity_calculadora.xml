@@ -7,4 +7,39 @@
     android:layout_height="match_parent"
     tools:context=".Calculadora">
 
+    <EditText
+        android:id="@+id/kilograms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="Introduce kilograms"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/measure"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/measure"
+        app:layout_constraintTop_toBottomOf="@+id/measure" />
+
+    <EditText
+        android:id="@+id/measure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="132dp"
+        android:ems="10"
+        android:hint="Introduce measure"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonNextWindow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="@+id/kilograms"
+        app:layout_constraintStart_toStartOf="@+id/kilograms"
+        app:layout_constraintTop_toBottomOf="@+id/kilograms" />
 </androidx.constraintlayout.widget.ConstraintLayout>
