@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Calculadora_IMC_AndroidStudio">
         <activity
+            android:name=".Calculadora"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
